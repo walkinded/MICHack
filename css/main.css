@@ -417,7 +417,7 @@ footer {
 }
 
 .disabled {
-  /* pointer-events: none; делаем ссылку некликабельной */
+  pointer-events: none;
   cursor: not-allowed;  /* устанавливаем курсор в виде стрелки */
   color: #999; /* цвет текста для нективной ссылки */
 }
