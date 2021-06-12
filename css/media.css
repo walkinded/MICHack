@@ -1,0 +1,126 @@
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (max-width: 1060px) {
+  .main_cont_content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main_cont_video {
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .main_cont_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+  }
+
+  .size_box {
+    max-width: 100%;
+  }
+
+  .footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_content_main_text {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer_content_main_text p,
+  .footer_content_main_text a,
+  .footer_content_main_text span {
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+
+  .modal-content {
+    height: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+      max-width: 540px;
+  }
+
+  .header_content {
+    justify-content: center;
+  }
+
+  .main_cont_text p {
+    font-size: 20px;
+    line-height: 33px;
+  }
+
+  .main_cont_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    margin-left: 0px;
+  }
+
+  .plus_left:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    transform: translate(-100%,-100%);
+    background: linear-gradient(#16ff00,#16ff00),linear-gradient(#16ff00,#16ff00);
+    background-position: 50%;
+    background-size: 100% .1rem,.1rem 100%;
+    background-repeat: no-repeat;
+  }
+
+  .menu_lvl2 li {
+    display: none;
+  }
+
+  .links {
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .btn_custom {
+    margin-top: 20px;
+  }
+
+  .close {
+    right: -25px;
+  }
+
+  .modal-content {
+    height: 30%;
+  }
+}

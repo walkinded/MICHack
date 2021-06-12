@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="libs/appleple-modal-video-2a609d4/css/modal-video.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/media.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <title>Московский инновационный кластер</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="header_content">
+        <a class="header_logo" target="_blank" href="https://i.moscow/">
+          <img src="img/svg/logo.svg" alt="">
+        </a>        
+        <div class="header_cont">
+          <div class="menu_lvl2">
+            <ul>
+              <li><a href="#">Скачать</a></li>
+            </ul>
+
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="main_cont">
+    <div class="container">
+      <div class="main_cont_content">
+        <div class="main_cont_text plus_left">
+
+          <p>С помощью нашего суперприложения вы сможете легко и просто коммуницировать с другими участниками кластера,  задавать вопросы.... <br> Скачивай-те наше приложение в AppStore и Google Play</p>
+          <div class="links">
+            <a class="btn_custom flex_box disabled" href="#">
+              <img src="img/svg/apple.svg" alt="">
+              <p>Загрузить в <span>App Store</span> </p>
+            </a>
+            <a class="btn_custom flex_box" href="#" alt="APK">
+              <img src="img/svg/logos_google-play-icon.svg" alt="">
+              <p>Доступно в <span>Google Play</span> </p>
+            </a>
+          </div>
+        </div>
+        <div class="main_cont_video">
+          <a id="myBtn" href="#" class="cont_video_box size_box">
+            <img src="img/svg/phone2.svg" alt="">
+            <div class="div_ico"></div>
+            <div class="div_text">
+              <p>О приложении</p>
+            </div>
+          </a>
+
+          <div class="cont_text_box2 size_box">
+            <h2>30 000+</h2>
+            <p>загрузок</p>
+            <div class="div_kv"></div>
+            <div class="div_plus"></div>
+          </div>
+
+          <div class="cont_text_box size_box">
+            <h2>Удобный</h2>
+            <p>чат</p>
+            <div class="div_kv"></div>
+            <div class="div_plus"></div>
+          </div>
+
+          <div class="cont_img_box size_box">
+            <img src="img/svg/phone.svg" alt="">
+            <div class="div_plus"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer_content">
+        <div class="footer_content_main_text">
+          <p>Сайт разработан в рамках хакатона:</p>
+          <a target="_blank" href="https://moscityhack.innoagency.ru/"><img src="img/svg/f-logo.svg" alt=""></a>
+          <p>командой</p>
+          <span>BBnB</span>
+        </div>
+        <p>2021 год</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="myModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <!-- <iframe width="100%" height="100%" src="https://youtu.be/hAq443fhyDo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/hAq443fhyDo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="libs/jquery/jquery-1.11.1.min.js"></script>
+  <script src="libs/appleple-modal-video-2a609d4/js/modal-video.min.js"></script>
+
+  <script>
+    var modal = document.getElementById("myModal");
+    var btn = document.getElementById("myBtn");
+    var span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'TTOctosquares';
+  src: local('TT Octosquares Regular'), local('TTOctosquares-Regular'),
+      url('../font/TTOctosquares-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: 'TTFirs';
+  src: local('☞TT Firs Light'), local('TTFirs-Light'),
+      url('../font/TTFirs-Light.woff2') format('woff2'),
+      url('../font/TTFirs-Light.woff') format('woff'),
+      url('../font/TTFirs-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTFirs';
+  src: local('☞TT Firs Medium'), local('TTFirs-Medium'),
+      url('../font/TTFirs-Medium.woff2') format('woff2'),
+      url('../font/TTFirs-Medium.woff') format('woff'),
+      url('../font/TTFirs-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTFirs';
+  src: local('☞TT Firs Bold'), local('TTFirs-Bold'),
+      url('../font/TTFirs-Bold.woff2') format('woff2'),
+      url('../font/TTFirs-Bold.woff') format('woff'),
+      url('../font/TTFirs-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTFirs';
+  src: local('☞TT Firs ExtraLight'), local('TTFirs-ExtraLight'),
+      url('../font/TTFirs-ExtraLight.woff2') format('woff2'),
+      url('../font/TTFirs-ExtraLight.woff') format('woff'),
+      url('../font/TTFirs-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTFirs';
+  src: local('☞TT Firs Extrabold'), local('TTFirs-ExtraBold'),
+      url('../font/TTFirs-ExtraBold.woff2') format('woff2'),
+      url('../font/TTFirs-ExtraBold.woff') format('woff'),
+      url('../font/TTFirs-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+ */
